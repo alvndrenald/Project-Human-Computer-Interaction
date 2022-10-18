@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cover-bg{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/bgdoto22.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    justify-content: center;
+}
+
+#header{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: auto;
+    background-image: url(assets/bgheader.png);
+    position: relative;
+}
+
+#logo-header{
+    position: relative;
+    margin: auto;
+    width: 150px;
+}
+
+
+#text-logo{
+    position: relative;
+    width: 550px;
+    margin: auto;
+
+}
+
+.navbar{
+    width: 1000px;
+    position: relative;
+    color: white;
+    margin: auto;
+    background-color: black;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+}
+.navbar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+.navbar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 16px 17px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 540px;
+    margin: 40px auto;
+    overflow: auto;
+
+}
+
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -20px;
+    text-align: center;
+    position: relative;
+    color: #ffb320;
+}
+
+.slider-inner{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+
+}
+
+.slider-inner img{
+    display: none;
+    width: 500px;
+    height: 400px;
+
+}
+
+.slider-inner img.active{
+    display: inline-block;
+}
+
+.prev,.next{
+    float: left;
+    margin-top: 170px;
+    cursor: pointer;
+}
+.prev{
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next{
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+
+.content{
+    width: 1000px;
+    position: relative;
+    color: white;
+    margin: auto;
+
+
+}
+.tittle1{
+    margin-left: 50px;
+    width: 880px;
+    text-align: justify;
+}
+
+.tittle1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    color: #ffb320;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content1{
+    margin-left: 50px;
+    width: 880px;
+    text-align: center;
+}
+
+.content1 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tittle2{
+    margin-left: 50px;
+    width: 880px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tittle2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    color: #ffb320;
+}
+
+.content2{
+    justify-content: space-around;
+    display: flex;
+    text-align: justify;
+}
+
+.imagecontent2{
+    padding-left: 15px;
+}
+
+.imagecontent2 img{
+    width: 330px;
+    height: 300px;
+}
+
+.textcontent2{
+    margin-right: 20px;
+    width: 550px;
+}
+
+.textcontent2 h1{
+    font-size: 20px;
+    color: #ffb320;
+}
+
+.imagecontent3 img{
+    width: 330px;
+    height: 200px;
+}
+
+#footer{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    align-self: baseline;
+     color: white;
+}
+
+.follow{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#textfooter{
+    margin: 8px 0;
+    font-style: arial bold;
+    font-size: 15px;
+    text-align: center;
+}

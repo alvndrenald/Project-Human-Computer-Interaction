@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasion Doto 2</title>
+    <link rel="stylesheet" href="sytleregistration2.css">
+    <link rel="shortcut icon" href="assets/logo doto2new.png" type="image/x-icon">
+</head>
+<body>
+    <div class="background-form">
+
+    <form action="" id="form" method="post" onsubmit="validate(); return false;">
+        <id id="judul">Registration Doto 2
+            <hr id="line">
+        </id>
+        <div class="formdalam">
+            <div class="username">
+                <td><label for="username">Username :</label></td>
+                <td><input type="text" name="username" id="username" placeholder="  Enter your Username"></td>
+            </div>
+
+            <div class="email">
+                <td>Email :</td>
+                <td><input type="text" name="email" id="email" placeholder="  Enter your Email"></td>
+            </div>
+            
+            <div class="password">
+                <td>Password :</td>
+                <td><input type="password" name="password" id="password" placeholder="  Password"></td>
+            </div>
+
+            <div class="region">
+                <td>Region :</td><br>
+                <td>
+                    <select name="country" id="country">
+                        <option value="">Where is your region</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="America">America</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </td>
+            </div>
+            
+            <div class="dateob">
+                <td>Date of Birth :</td>
+                <td><input type="date" name="dateob" id="dateob" placeholder="  DD/MM/YYYY"></td>
+            </div>
+            
+             <div class="checkbox">
+                 <tr>
+                    <td><input type="checkbox" name="checkbox" id="checkbox">I Agree to All Terms and Conditions</td>
+                 </tr>
+             </div>
+             <div class="submit">
+                <input type="submit" value="Check for availability">
+                <!-- <input type="button" value="go to home page"> -->
+                <div class="lanjut">
+                    <a href="home.html">If your Register success click here to continue</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+        <div id="footer">
+            <div class="follow"><b>Follow Us: </b>
+                <div id="fb">
+                    <img src="assets/fb.png" alt="">
+                </div>
+            <div id="fbtext"><p>doto2 IDN</p></div>
+                <div id="ig">
+                    <img src="assets/ig.png" alt="">
+                </div>
+            <div id="igtext"><p>doto2 IDN</p></div>
+        <div id="tw">
+             <img src="assets/tw.png" alt="">
+        </div>
+            <div id="twtext"><p>doto2 IDN</p></div>
+            </div>
+            <hr>
+            <div id="textfooter">
+                <p>Doto 2 logo are trademarks and/or registered trademarks</p>
+                <p>of Volvo Corporation</p>
+                <p>2021 Volvo Corporation, all rights reserved.</p>
+            </div>
+       </div>
+            
+    </div>
+    <script src="js/regis.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doto 2</title>
+    <link rel="stylesheet" href="home.css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/logo doto2new.png" type="image/x-icon">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+<div id="cover-bg"></div>
+    <div id="header">
+     <div id="logo-header">
+        <img src="assets/logo doto2new.png" alt="">
+    </div>
+    <div id="text-logo">
+        <img src="assets/text-1622734193564.png" alt="register">
+    </div>
+    </div>
+
+<div class="navbar">
+    <ul>
+        <li>
+            <a href="">Game</a>
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="hero.html">Heroes</a></li>
+                    <li><a href="game-mechanics.html">Game Mechanics</a></li>
+                    <li><a href="merchandises.html">Merchandises</a></li>
+                    <li><a href="registration2.html">Registration</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="aboutUs.html">About Us</a>
+        </li>
+        <li>
+            <a href="https://store.steampowered.com/">Play On Steam </a> 
+        </li>
+    </ul>
+    </div>
+
+<div class="container">
+    <h1>Doto 2 <span>Gameplay Overview</span> </h1>
+    <div class="slider-outer">
+        <img src="assets/leftarrow.png" class="prev"  alt="Prev">
+        <div class="slider-inner">
+           <img src="assets/gpo1.png" width="500px" class="active">
+           <img src="assets/gpo2.jpg" width="500px" >
+           <img src="assets/gpo3.jpg" width="500px" >
+           <img src="assets/gpo4.png" width="500px" >
+           <img src="assets/gpo5.jpg" width="500px" >
+           <img src="assets/gpo6.jpg" width="500px" >
+           <img src="assets/gpo7.png" width="500px" >
+        </div>
+        <img src="assets/rightarrow.png" class="next" alt="Next">
+    </div>
+</div>
+
+<div class="content">
+    <div class="tittle1">
+       <h1> <b>About The Game</b></h1> 
+    </div>
+
+    <div class="content1"> 
+    <p>Doto 2 is a MOBA game that more than 11 milion players around the world</p>  
+    <p>Bring your friends and party up.</p> 
+    <p>Dota is deep, and constantly evolving, but it's never late to join us. </p> 
+    <p>Learn the ropes playing co-op or even vs bot. Sharpen your skills in the hero demo mode.</p>  
+    <p>And skill-based matchmaking system that ensures you will be matched with the right players each time of the game.</p> 
+    </div>
+    <div class="tittle2">
+        <hr>
+       <h1><b>NEWS</b></h1> 
+    </div>
+
+    <div class="content2">
+        <div class="imagecontent2">
+            <img src="assets/event_1.png" width="350px" alt="">
+        </div>
+        <div class="textcontent2">
+            <h1><p> 2-June-2021</p></h1>
+            <h2> <p>Doto2-Plus Summer Update</p> </h2>
+            <p>As the blossoms of spring fade in the face of the onset of summer, </p> 
+            <p>today's patch welcomes an accompanying seasonal update for Dota Plus,</p>
+            <p>featuring the return of High Fives</p> 
+            <button id="button-read-more">Read more</button>
+        </div>
+    </div>
+
+    <div class="content3">
+        <div class="imagecontent3">
+            <img src="assets/event_2.png" width="350px" alt="">
+        </div>
+        <div class="textcontent3">
+            <h1><p> 4-June-2021</p></h1>
+            <h2><p> The Mistwood Updates</p> </h2>
+            <p>Deep in the outlands, beyond the deserts of Nanarak and north of the</p> 
+            <p> coal fires of Krimwohl, a treacherous expanse of woodland awaits</p>
+            <button id="button-read-more">Read more</button>
+        </div>
+        
+    </div>
+   <hr>
+    </div>
+
+</div>
+
+
+
+<div class="slider">
+    <hr>
+    <h1>Check out our New Release Heroes</h1>
+    
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+            <img src="assets/slide1.jpg" width="700px" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/slide2.jpg" width="700px" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/slide3.jpg" width="700px" alt="">
+        </div>
+        <div class="slide">
+            <img src="assets/slide4.jpg" width="700px" alt="">
+        </div>
+        
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        },5000);
+    </script>
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+</div>
+
+<div id="footer">
+        <div class="follow"><b>Follow Us: </b>
+        <div id="fb">
+            <img src="assets/fb.png" alt=""> 
+        </div>
+        <div id="fbtext"><p>doto2 IDN</p></div>
+        <div id="ig">
+            <img src="assets/ig.png" alt=""> 
+        </div>
+        <div id="igtext"><p>doto2 IDN</p></div>
+       <div id="tw">
+             <img src="assets/tw.png" alt="">
+       </div>
+       <div id="twtext"><p>doto2 IDN</p></div>
+        </div>
+        <hr>
+       <div id="textfooter">
+        <p>Doto 2 logo are trademarks and/or registered trademarks</p>
+        <p>of Volvo Corporation</p>
+        <p>2021 Volvo Corporation, all rights reserved.</p>
+       </div>
+       </div> 
+</body>
+</html>
